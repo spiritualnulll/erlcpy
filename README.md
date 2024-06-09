@@ -17,8 +17,7 @@ A light-weight script to interact with the ERLC API
 ## How to use it?
 First of all you need to initalize it using your **server key** and if your **Global API key** if you have one
 ```python
-#                               required                     not required           default = false and not required
-              erlc = ERLC(server_key="your_server_key", global_key="your_global_key", debug=True)
+erlc = ERLC(server_key="your_server_key", global_key="your_global_key", debug=True)
 ```
 
 - `server_key` is a required string.
