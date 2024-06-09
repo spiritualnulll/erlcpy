@@ -1,5 +1,5 @@
 # erlcpy
-A light-weight script to interact with the ERLC API
+A light-weight ~~script (turns out I was dumb)~~ API wrapper to interact with the ERLC API
 
 ## Commmand list:
 - [server_info](https://apidocs.policeroleplay.community/for-developers/api-reference#server): Fetches server status data.
