@@ -1,6 +1,6 @@
 import requests # obviously
 import colorama # just used for initalization
-import time # ratelimits
+import time # ratelimitssssss
 from colorama import Fore, Style # For logging
 
 colorama.init(autoreset=True)
