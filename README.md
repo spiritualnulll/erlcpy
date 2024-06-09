@@ -3,16 +3,16 @@ A light-weight script to interact with the ERLC API
 -------
 
 ## Commmand list:
-- server_info: Fetches server status data.
-- players: Fetches a list of players currently in the server.
-- joinlogs: Fetches join logs data.
-- queuelist: Fetches players currently in queue.
-- killlogs: Fetches kill logs data.
-- command_logs: Fetches command logs data.
-- modcalls: Fetches moderator call logs data.
-- bans: Fetches bans data.
-- vehicles: Fetches a list of spawned vehicles in the server.
-- cmd: Executes command on the server.
+- [server_info](https://apidocs.policeroleplay.community/for-developers/api-reference#server): Fetches server status data.
+- [players](https://apidocs.policeroleplay.community/for-developers/api-reference#server-players): Fetches a list of players currently in the server.
+- [joinlogs](https://apidocs.policeroleplay.community/for-developers/api-reference#server-joinlogs): Fetches join logs data.
+- [queuelist](https://apidocs.policeroleplay.community/for-developers/api-reference#server-queue): Fetches players currently in queue.
+- [killlogs](https://apidocs.policeroleplay.community/for-developers/api-reference#server-killlogs): Fetches kill logs data.
+- [command_logs](https://apidocs.policeroleplay.community/for-developers/api-reference#server-commandlogs): Fetches command logs data.
+- [modcalls](https://apidocs.policeroleplay.community/for-developers/api-reference#server-modcalls): Fetches moderator call logs data.
+- [bans](https://apidocs.policeroleplay.community/for-developers/api-reference#server-bans): Fetches bans data.
+- [vehicles](https://apidocs.policeroleplay.community/for-developers/api-reference#server-vehicles): Fetches a list of spawned vehicles in the server.
+- [cmd](https://apidocs.policeroleplay.community/for-developers/api-reference#server-command): Executes command on the server.
 
 ## How to use it?
 First of all you need to initalize it using your **server key** and if your **Global API key** if you have one
