@@ -41,7 +41,5 @@ command_response = erlc.cmd("kill LuckySpy_King") # ay thats me! don't kill me!!
 
 **All commands return json data! Refer the [ERLC API Documentation](https://apidocs.policeroleplay.community/for-developers/api-reference) to see how the json data is strucutred.**
 
-## [Found an Issue?](https://github.com/spiritualnulll/erlcpy/issues)
-
 ## Credits
 The API is by [PRC](https://twitter.com/PRC_Roblox).
