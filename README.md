@@ -1,5 +1,5 @@
 # erlcpy
-A light-weight ~~script (turns out I was dumb)~~ API wrapper to interact with the ERLC API
+A light-weight ~~script (turns out I was dumb)~~ API wrapper to interact with the ERLC API.
 
 ## Commmand list:
 - [server_info](https://apidocs.policeroleplay.community/for-developers/api-reference#server): Fetches server status data.
@@ -14,7 +14,7 @@ A light-weight ~~script (turns out I was dumb)~~ API wrapper to interact with th
 - [cmd](https://apidocs.policeroleplay.community/for-developers/api-reference#server-command): Executes command on the server.
 
 ## How to use it?
-First of all you need to initalize it using your **server key** and if your **Global API key** if you have one
+First of all you need to initalize it using your **Server key** and if your **Global API key** if you have one.
 ```python
 erlc = ERLC(server_key="your_server_key", global_key="your_global_key", debug=True)
 ```
