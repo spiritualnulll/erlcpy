@@ -1,11 +1,12 @@
-import requests # obviously
-import colorama # just used for initalization
-import time # ratelimitssssss
-from colorama import Fore, Style # For logging
+import requests  # obviously
+import colorama  # just used for init
+import time  # rate limits
+from colorama import Fore, Style  # For logging
 
 colorama.init(autoreset=True)
 
-class erlc:
+
+class ERLC:
     def __init__(self, server_key, global_key=None, debug=False):
         self.base_url = "https://api.policeroleplay.community/v1/"
         self.server_key = server_key
@@ -50,9 +51,10 @@ class erlc:
             if limits["remaining"] <= 0:
                 reset_time = limits["reset"] - int(time.time())
                 if reset_time > 0:
-                    self.log(f"Rate limit exceeded. Waiting for {reset_time} seconds.", color=Fore.RED, style=Style.NORMAL)
+                    self.log(f"Rate limit exceeded. Waiting for {reset_time} seconds.",
+                             color=Fore.RED, style=Style.NORMAL)
                     time.sleep(reset_time)
-    
+
     def get_response(self, endpoint):
         self.log_request(endpoint)
         try:
@@ -84,7 +86,7 @@ class erlc:
         return self.get_response("server/joinlogs")
 
     def queuelist(self):
-        return self.get_response("server/queue")
+        return self.get_response("server/queue") #yeah... there is only a single line for these functions
 
     def killlogs(self):
         return self.get_response("server/killlogs")
@@ -101,7 +103,7 @@ class erlc:
     def vehicles(self):
         return self.get_response("server/vehicles")
 
-    def cmd(self, cmd):
+    def cmd(self, cmd): # most restricted api because post, thats why so longggg
         self.log_request("server/command")
         data = {'commandstring': cmd}
         try:
