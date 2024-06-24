@@ -2,16 +2,16 @@
 A light-weight ~~script (turns out I was dumb)~~ API wrapper to interact with the ERLC API.
 
 ## Commmand list:
-- [server_info](https://apidocs.policeroleplay.community/for-developers/api-reference#server): Fetches server status data.
-- [players](https://apidocs.policeroleplay.community/for-developers/api-reference#server-players): Fetches a list of players currently in the server.
-- [joinlogs](https://apidocs.policeroleplay.community/for-developers/api-reference#server-joinlogs): Fetches join logs data.
-- [queuelist](https://apidocs.policeroleplay.community/for-developers/api-reference#server-queue): Fetches players currently in queue.
-- [killlogs](https://apidocs.policeroleplay.community/for-developers/api-reference#server-killlogs): Fetches kill logs data.
-- [command_logs](https://apidocs.policeroleplay.community/for-developers/api-reference#server-commandlogs): Fetches command logs data.
-- [modcalls](https://apidocs.policeroleplay.community/for-developers/api-reference#server-modcalls): Fetches moderator call logs data.
-- [bans](https://apidocs.policeroleplay.community/for-developers/api-reference#server-bans): Fetches bans data.
-- [vehicles](https://apidocs.policeroleplay.community/for-developers/api-reference#server-vehicles): Fetches a list of spawned vehicles in the server.
-- [cmd](https://apidocs.policeroleplay.community/for-developers/api-reference#server-command): Executes command on the server.
+- [server_info](https://apidocs.policeroleplay.community/for-developers/api-reference#server): Fetches server status data. `GET`
+- [players](https://apidocs.policeroleplay.community/for-developers/api-reference#server-players): Fetches a list of players currently in the server. `GET`
+- [joinlogs](https://apidocs.policeroleplay.community/for-developers/api-reference#server-joinlogs): Fetches join logs data. `GET`
+- [queuelist](https://apidocs.policeroleplay.community/for-developers/api-reference#server-queue): Fetches players currently in queue. `GET`
+- [killlogs](https://apidocs.policeroleplay.community/for-developers/api-reference#server-killlogs): Fetches kill logs data. `GET`
+- [command_logs](https://apidocs.policeroleplay.community/for-developers/api-reference#server-commandlogs): Fetches command logs data. `GET`
+- [modcalls](https://apidocs.policeroleplay.community/for-developers/api-reference#server-modcalls): Fetches moderator call logs data. `GET`
+- [bans](https://apidocs.policeroleplay.community/for-developers/api-reference#server-bans): Fetches bans data. `GET`
+- [vehicles](https://apidocs.policeroleplay.community/for-developers/api-reference#server-vehicles): Fetches a list of spawned vehicles in the server. `GET`
+- [cmd](https://apidocs.policeroleplay.community/for-developers/api-reference#server-command): Executes command on the server. `POST`
 
 ## How to use it?
 First of all you need to initalize it using your **Server key** and if your **Global API key** if you have one.
