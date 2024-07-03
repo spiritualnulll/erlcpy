@@ -8,7 +8,6 @@ colorama.init(autoreset=True)
 
 class ERLC:
     def __init__(self, server_key, global_key=None, debug=False):
-        print(f"{Fore.RED} erlcpy is an ABANDONED project because of the presence of many better ones, please switch over to a better one like https://github.com/Arimuon/erlcPY to get rid of this message on startup")
         self.base_url = "https://api.policeroleplay.community/v1/"
         self.server_key = server_key
         self.global_key = global_key
