@@ -1,3 +1,8 @@
+
+
+> [!CAUTION]
+> This is now abandoned as per the discovery of [Arimuon/erlcPY](https://github.com/Arimuon/erlcPY). This project won't get updates nor any support from my side.
+
 # erlcpy
 A light-weight ~~script (turns out I was dumb)~~ API wrapper to interact with the ERLC API.
 
