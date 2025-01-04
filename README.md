@@ -3,6 +3,19 @@
 A light-weight ~~script (turns out I was dumb)~~ API wrapper to interact with the ERLC API.
 > working since June 9 :)
 
+## How to use?
+Throw `erlcpy.py` into your file folder and then import erlcpy
+```
+ main.py
+ erlcpy.py
+```
+```py
+import erlcpy
+
+erlc = erlcpy.ERLC(server_key="your_server_key", global_key="your_global_key", debug=True)
+players = erlc.players()
+```
+
 ## Commmand list:
 - [server_info](https://apidocs.policeroleplay.community/for-developers/api-reference#server): Fetches server status data. `GET`
 - [players](https://apidocs.policeroleplay.community/for-developers/api-reference#server-players): Fetches a list of players currently in the server. `GET`
@@ -18,7 +31,7 @@ A light-weight ~~script (turns out I was dumb)~~ API wrapper to interact with th
 ## How to use it?
 First of all you need to initalize it using your **Server key** and your **Global API key** if you have one.
 ```python
-erlc = ERLC(server_key="your_server_key", global_key="your_global_key", debug=True)
+erlc = erlcpy.ERLC(server_key="your_server_key", global_key="your_global_key", debug=True)
 ```
 
 - `server_key` is a required string.
