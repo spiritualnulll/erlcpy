@@ -1,6 +1,6 @@
 
 # erlcpy
-A light-weight ~~script (turns out I was dumb)~~ API wrapper to interact with the ERLC API.
+A light-weight ~~script (turns out I am dumb)~~ API wrapper to interact with the ERLC API.
 > working since June 9 :)
 
 ## How to use?
